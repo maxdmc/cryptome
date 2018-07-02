@@ -2,12 +2,17 @@ body {
   padding: 10px;
   font-family: sans-serif;
 }
+
+
+
+
 .gridholdings {
   display: grid;
  grid-template-columns : 1fr 1fr 1fr 1fr 1fr;
  
  
 }
+
 .itemdisplay {
   display: grid;
   grid-template-columns : 1fr 1fr 1fr 1fr 1fr;
@@ -17,6 +22,7 @@ body {
   border: none;
   padding-bottom: 2.5em;
 }
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -27,13 +33,16 @@ body {
   font-size: 16px;
   padding-left: 1em; 
 }
+
 .grid div {
   
   background-color: #192336; 
 }
+
 div.grid {
   height: 700px;
 }
+
 .uppersquare {
   display: grid;
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
@@ -49,6 +58,13 @@ div.grid {
   padding-left: .8em;
   
 }
+
+
+
+
+
+
+
 .boxportofolio {
   width: 15%;
   height: 30px;
@@ -70,14 +86,18 @@ div.grid {
   grid-template-columns: 1fr 1fr 1fr 1fr; 
   border: none;
 }
+
 .fas {
   padding-right: .8em;
 }
+
 .Roiholdings {
   display: grid;
   grid-template-columns: 1fr 1fr;
   
 }
+
+
 .boxusd {
   
         display: flex;
@@ -101,3 +121,6 @@ div.grid {
   grid-template-columns: 1fr 1fr;
   
 }
+
+
+

@@ -9,6 +9,8 @@ import holdingmain from '../imports/holdingmain'
 import watchlistmain from '../imports/watchlistmain'
 
 
+
 Meteor.startup(() => {
   render(<App/>, document.getElementById('app'));
 });
+

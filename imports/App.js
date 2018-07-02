@@ -20,7 +20,11 @@ export default class App extends React.Component{
           totalvalue   += (ele.price*ele.amount)  
           totalinvest += (ele.buyprice*ele.amount)
           ROI += (ele.ROI)
+<<<<<<< HEAD
           
+=======
+          debugger
+>>>>>>> 25e965ff8675ba121679b08ae57400db5465d27c
        
         })
         this.setState({value : totalvalue})
@@ -127,4 +131,7 @@ var currentinvest = parseInt(this.state.buyprice).toLocaleString('en')
        </section>
        
 ) } }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 25e965ff8675ba121679b08ae57400db5465d27c
