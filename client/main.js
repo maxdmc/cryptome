@@ -6,3 +6,10 @@ import React from 'react';
 import { render } from 'react-dom';
 //import the render function from react-dom
 import App from '../imports/App';
+import Holdingmain from '../imports/Holdingmain'
+import Watchlistmain from '../imports/Watchlistmain'
+
+
+Meteor.startup(() => {
+  render(<App/>, document.getElementById('app'));
+});

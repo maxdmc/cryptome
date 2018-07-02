@@ -2,3 +2,127 @@ body {
   padding: 10px;
   font-family: sans-serif;
 }
+
+
+.gridholdings {
+  display: grid;
+ grid-template-columns : 1fr 1fr 1fr 1fr 1fr;
+ 
+ 
+}
+
+
+.itemdisplay {
+  display: grid;
+  grid-template-columns : 1fr 1fr 1fr 1fr 1fr;
+  font-size: 10px;
+  color: grey;
+  justify-content: space-between;
+  border: none;
+  padding-bottom: 2.5em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  color: white; 
+}
+.grid h1 {
+  font-size: 16px;
+  padding-left: 1em; 
+}
+
+.grid div {
+  
+  background-color: #192336; 
+}
+
+div.grid {
+  height: 700px;
+}
+
+.uppersquare {
+  display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+  width: 100%;
+  height: 80px;
+  border: none;
+  margin-bottom: 2em;
+  background-color: #192336; 
+  margin-top: 2em;
+  border-right: solid;
+  color: grey; 
+  padding-top: .3em;
+  padding-left: .8em;
+  
+}
+
+
+
+
+
+
+
+.boxportofolio {
+  width: 15%;
+  height: 30px;
+  background-color: #192336;
+  color:white;
+  margin-bottom: 1px;
+  margin-top: 1px; 
+}
+
+.gridwatchlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ; 
+  color:grey;
+  font-size: 10px;
+  padding-bottom: 2em;
+  
+}
+
+.gridelewatch {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  border: none;
+}
+
+.fas {
+  padding-right: .8em;
+}
+
+.Roiholdings {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+
+.boxusd {
+  
+        display: flex;
+    height: 12px;
+    
+    border-radius: 2px;
+    cursor: default;
+    background: white;
+    color: #151D2D;
+    font-size: 8px;
+    line-height: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.6;
+    
+    width: 21px;
+    padding-left: .3em;
+}
+
+.gridusdbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+
+
